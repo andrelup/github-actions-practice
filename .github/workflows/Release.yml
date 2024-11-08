@@ -1,7 +1,7 @@
-name: Release
+name: New Release
 on: [workflow_dispatch, push]
 jobs:
-    tests:
+    release:
         runs-on: ubuntu-latest
         steps:
         - name: Get code
